@@ -15,81 +15,81 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\source\animal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="util.cpp">
+    <ClCompile Include="src\source\base64.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="general.cpp">
+    <ClCompile Include="src\source\currency.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="objectDetection.cpp">
+    <ClCompile Include="src\source\dish.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="base64.cpp">
+    <ClCompile Include="src\source\general.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="animal.cpp">
+    <ClCompile Include="src\source\ingredient.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="plant.cpp">
+    <ClCompile Include="src\source\landmark.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="logo.cpp">
+    <ClCompile Include="src\source\logo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ingredient.cpp">
+    <ClCompile Include="src\source\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dish.cpp">
+    <ClCompile Include="src\source\objectDetection.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="redwine.cpp">
+    <ClCompile Include="src\source\plant.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="currency.cpp">
+    <ClCompile Include="src\source\redwine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="landmark.cpp">
+    <ClCompile Include="src\source\util.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="util.h">
+    <ClInclude Include="src\include\animal.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="general.h">
+    <ClInclude Include="src\include\base64.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="objectDetection.h">
+    <ClInclude Include="src\include\currency.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="base64.h">
+    <ClInclude Include="src\include\general.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="animal.h">
+    <ClInclude Include="src\include\dish.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="plant.h">
+    <ClInclude Include="src\include\ingredient.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="logo.h">
+    <ClInclude Include="src\include\landmark.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ingredient.h">
+    <ClInclude Include="src\include\logo.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="dish.h">
+    <ClInclude Include="src\include\objectDetection.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="redwine.h">
+    <ClInclude Include="src\include\plant.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="currency.h">
+    <ClInclude Include="src\include\redwine.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="landmark.h">
+    <ClInclude Include="src\include\util.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

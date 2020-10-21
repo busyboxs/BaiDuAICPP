@@ -118,6 +118,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>E:\VS_Projects\BaiDuAI\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,33 +142,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="animal.cpp" />
-    <ClCompile Include="base64.cpp" />
-    <ClCompile Include="currency.cpp" />
-    <ClCompile Include="dish.cpp" />
-    <ClCompile Include="general.cpp" />
-    <ClCompile Include="ingredient.cpp" />
-    <ClCompile Include="landmark.cpp" />
-    <ClCompile Include="logo.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="objectDetection.cpp" />
-    <ClCompile Include="plant.cpp" />
-    <ClCompile Include="redwine.cpp" />
-    <ClCompile Include="util.cpp" />
+    <ClCompile Include="src\source\animal.cpp" />
+    <ClCompile Include="src\source\base64.cpp" />
+    <ClCompile Include="src\source\currency.cpp" />
+    <ClCompile Include="src\source\dish.cpp" />
+    <ClCompile Include="src\source\general.cpp" />
+    <ClCompile Include="src\source\ingredient.cpp" />
+    <ClCompile Include="src\source\landmark.cpp" />
+    <ClCompile Include="src\source\logo.cpp" />
+    <ClCompile Include="src\source\main.cpp" />
+    <ClCompile Include="src\source\objectDetection.cpp" />
+    <ClCompile Include="src\source\plant.cpp" />
+    <ClCompile Include="src\source\redwine.cpp" />
+    <ClCompile Include="src\source\util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h" />
-    <ClInclude Include="base64.h" />
-    <ClInclude Include="currency.h" />
-    <ClInclude Include="dish.h" />
-    <ClInclude Include="general.h" />
-    <ClInclude Include="ingredient.h" />
-    <ClInclude Include="landmark.h" />
-    <ClInclude Include="logo.h" />
-    <ClInclude Include="objectDetection.h" />
-    <ClInclude Include="plant.h" />
-    <ClInclude Include="redwine.h" />
-    <ClInclude Include="util.h" />
+    <ClInclude Include="src\include\animal.h" />
+    <ClInclude Include="src\include\base64.h" />
+    <ClInclude Include="src\include\currency.h" />
+    <ClInclude Include="src\include\dish.h" />
+    <ClInclude Include="src\include\general.h" />
+    <ClInclude Include="src\include\ingredient.h" />
+    <ClInclude Include="src\include\landmark.h" />
+    <ClInclude Include="src\include\logo.h" />
+    <ClInclude Include="src\include\objectDetection.h" />
+    <ClInclude Include="src\include\plant.h" />
+    <ClInclude Include="src\include\redwine.h" />
+    <ClInclude Include="src\include\util.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
